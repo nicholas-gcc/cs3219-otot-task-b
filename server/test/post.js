@@ -1,14 +1,4 @@
 process.env.NODE_ENV = 'test';
-
-// let mongoose = require("mongoose");
-// let post = require('../app/models/postMessage.js');
-
-// //Require the dev-dependencies
-// let chai = require('chai');
-// let chaiHttp = require('chai-http');
-// let server = require('../server');
-// let should = chai.should();
-import mongoose from 'mongoose';
 import chai from 'chai';
 import chaiHttp from 'chai-http';
 import app from '../index.js';
